@@ -1,0 +1,51 @@
+#Ignore thumbnails created by Windows
+Thumbs.db
+
+#Ignore files created by Visual Studio
+*.user
+*.suo
+*.dbmdl
+*.dbproj.schemaview
+*.cache
+*.vsdoc
+[Oo]bj/
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+[Rr][Cc]/
+[Cc]ode[Cc]overage/
+[Ff]x[Cc]op/
+[Ll]og/
+[Tt]emp/
+
+# Guidance Automation Toolkit file
+*.gpstate
+
+#Ignore files created by ReSharper
+_ReSharper*/
+
+#Ignore files created by Typemock
+lint.db
+Metrics.typemock.*
+
+#Ignore files created by NUnit
+TestResult.xml
+*.VisualState.xml
+
+#Ignore log files
+*.log
+
+# Ignore NCrunch files
+_NCrunch*
+*.ncrunchsolution
+*.ncrunchsolution.user
+*.ncrunchproject
+/Analysis/Nephila.Analysis.Contracts/NuGet/*.nupkg
+/RiskWindow/Nephila.RiskWindow.Contracts/NuGet/*.nupkg
+
+.vs/
+
+appsettings.txt
+*.GhostDoc.xml
+.DS_Store
+packages/
