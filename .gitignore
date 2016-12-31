@@ -40,8 +40,6 @@ _NCrunch*
 *.ncrunchsolution
 *.ncrunchsolution.user
 *.ncrunchproject
-/Analysis/Nephila.Analysis.Contracts/NuGet/*.nupkg
-/RiskWindow/Nephila.RiskWindow.Contracts/NuGet/*.nupkg
 
 .vs/
 
