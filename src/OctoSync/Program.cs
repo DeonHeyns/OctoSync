@@ -16,7 +16,6 @@ namespace OctoSync
             {
                 x.Service<Poller>(s =>
                 {
-                    Directory.CreateDirectory("Log");
                     var log = ConfigureLogger();
 
                     var interval = double.Parse(
